@@ -1,0 +1,672 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "home.html",
+			"settings":
+			{
+				"buffer_size": 7708,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "myworkarea_new_course.html",
+			"settings":
+			{
+				"buffer_size": 21312,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/angular.min.js",
+			"settings":
+			{
+				"buffer_size": 99130,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Bootply snippet - Bootstrap Angular dual list example (d&d).html",
+			"settings":
+			{
+				"buffer_size": 19818,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/angular.js",
+			"settings":
+			{
+				"buffer_size": 1040896,
+				"line_ending": "Windows",
+				"name": "/**"
+			}
+		},
+		{
+			"file": "js/bootstrap.js",
+			"settings":
+			{
+				"buffer_size": 68954,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/drag_and_drop.js",
+			"settings":
+			{
+				"buffer_size": 6695,
+				"line_ending": "Windows",
+				"name": "/* load drag-and-drop directives -- credit: http:/"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1798,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/sqftool.css",
+			"settings":
+			{
+				"buffer_size": 4940,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/dragdrop.css",
+			"settings":
+			{
+				"buffer_size": 9361,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/bootstrap.min.css",
+			"settings":
+			{
+				"buffer_size": 121260,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/bootstrap.css.map",
+			"settings":
+			{
+				"buffer_size": 389227,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 146082,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/brzoza/Documents/SQFTOOL_mockup",
+		"/C/Users/brzoza/Documents/SQFTOOL_mockup/css",
+		"/C/Users/brzoza/Documents/SQFTOOL_mockup/js"
+	],
+	"file_history":
+	[
+		"/C/Users/brzoza/Documents/SQFTOOL_mockup/js/bootstrap-editable.js",
+		"/C/Users/brzoza/Documents/SQFTOOL_mockup/js/bootstrap-editable.min.js",
+		"/C/Users/brzoza/Documents/SQFTOOL_mockup/home.html",
+		"/C/Users/brzoza/Documents/SQFTOOL_mockup/index.html",
+		"/C/Users/brzoza/Documents/SQFTOOL_mockup/css/sqftool.css",
+		"/C/Users/brzoza/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/brzoza/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"panel-title",
+			"padding",
+			"md"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2951,
+								3034
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 104.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "myworkarea_new_course.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10127,
+								10127
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3158.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/angular.min.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 99130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Bootply snippet - Bootstrap Angular dual list example (d&d).html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9719,
+								9590
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1729.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/angular.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1040896,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1040896,
+								1040896
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/**",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 367728.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/bootstrap.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 68954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/drag_and_drop.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6695,
+								6695
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/* load drag-and-drop directives -- credit: http:/",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2353.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1473,
+								1473
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "css/sqftool.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4940,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4880,
+								4880
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2058.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "css/dragdrop.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9361,
+								9361
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 54008.0,
+						"translation.y": 182.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "css/bootstrap.min.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 121260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "css/bootstrap.css.map",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 389227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114076,
+								113986
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 70852.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SQFTool.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

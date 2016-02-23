@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://www.bootply.com/render/UFLBWTTXAR -->
+<html lang="en" class="gr__bootply_com"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-start{clip:rect(0,auto,auto,0);-ms-zoom:1.0001;}.ng-animate-active{clip:rect(-1px,auto,auto,0);-ms-zoom:1;}</style>
+         
+        <meta charset="utf-8">
+        <title>Bootply snippet - Bootstrap Angular dual list example (d&amp;d)</title>
+        <meta name="generator" content="Bootply">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Bootstrap Angular dual list example (d&amp;d) example snippet for Bootstrap.">
+        <link href="./Bootply snippet - Bootstrap Angular dual list example (d&d)_files/bootstrap.min.css" rel="stylesheet">
+        
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="apple-touch-icon" href="http://www.bootply.com/bootstrap/img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="http://www.bootply.com/bootstrap/img/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="http://www.bootply.com/bootstrap/img/apple-touch-icon-114x114.png">
+
+<link href="./Bootply snippet - Bootstrap Angular dual list example (d&d)_files/font-awesome.min.css" type="text/css" rel="stylesheet">
+
+
+
+
+
+
+
+
+        <!-- CSS code from Bootply.com editor -->
+        
+</head>
+    
+    <!-- HTML code from Bootply.com editor -->
+    
+    <body data-gr-c-s-loaded="true" ginger_software_stylesheet="true" ginger_software_doc="true">
+        
+        <hr>
+<div class="container-fluid ng-scope" ng-app="myApp"> 
+    <div class="container ng-scope" ng-controller="ctrlDualList">
+      <div class="row">
+            <div class="col-md-12 text-center"><h3>Drag &amp; Drop Pick List</h3></div>
+            <div class="col-sm-4 col-sm-offset-1">
+              <div class="list-group ng-isolate-scope" id="list1" x-lvl-drop-target="true" x-on-drop="drop(dragEl, dropEl, bToA)">
+                <a href="javascript:;" class="list-group-item active">Staff
+                  <input title="Toggle all" ng-click="toggleA()" ng-model="toggle" value="" type="checkbox" class="pull-right ng-pristine ng-valid"></a>
+                <!-- ngRepeat: user in listA --><span ng-repeat="user in listA" class="ng-scope">
+                  <a href="javascript:;" data-id="1" x-lvl-draggable="true" class="list-group-item ng-binding" draggable="true" id="1b576895-c515-53d5-0627-25e658f5c5b7">Mary
+                    <small class="text-muted"><em class="ng-binding">manager</em></small>                    
+                    <input id="1" ng-click="selectedA.push(user.id)" name="selectedA[]" value="1" ng-checked="selectedA.indexOf(user.id) &gt; -1" type="checkbox" class="pull-right">
+                  </a>
+                </span><!-- end ngRepeat: user in listA --><span ng-repeat="user in listA" class="ng-scope">
+                  <a href="javascript:;" data-id="2" x-lvl-draggable="true" class="list-group-item ng-binding" draggable="true" id="0dc9d845-1e0e-6605-fc38-510aa9f058ec">Mark
+                    <small class="text-muted"><em class="ng-binding">developer</em></small>                    
+                    <input id="2" ng-click="selectedA.push(user.id)" name="selectedA[]" value="2" ng-checked="selectedA.indexOf(user.id) &gt; -1" type="checkbox" class="pull-right">
+                  </a>
+                </span><!-- end ngRepeat: user in listA --><span ng-repeat="user in listA" class="ng-scope">
+                  <a href="javascript:;" data-id="3" x-lvl-draggable="true" class="list-group-item ng-binding" draggable="true" id="fe7f0097-f74d-f57b-771a-13e52f955287">Alex
+                    <small class="text-muted"><em class="ng-binding">admin</em></small>                    
+                    <input id="3" ng-click="selectedA.push(user.id)" name="selectedA[]" value="3" ng-checked="selectedA.indexOf(user.id) &gt; -1" type="checkbox" class="pull-right">
+                  </a>
+                </span><!-- end ngRepeat: user in listA --><span ng-repeat="user in listA" class="ng-scope">
+                  <a href="javascript:;" data-id="4" x-lvl-draggable="true" class="list-group-item ng-binding" draggable="true" id="87fc84e8-7dc8-8275-c159-73a10cd8e1fc">Bob
+                    <small class="text-muted"><em class="ng-binding">manager</em></small>                    
+                    <input id="4" ng-click="selectedA.push(user.id)" name="selectedA[]" value="4" ng-checked="selectedA.indexOf(user.id) &gt; -1" type="checkbox" class="pull-right">
+                  </a>
+                </span><!-- end ngRepeat: user in listA --><span ng-repeat="user in listA" class="ng-scope">
+                  <a href="javascript:;" data-id="5" x-lvl-draggable="true" class="list-group-item ng-binding" draggable="true" id="d2cf483f-e416-53eb-dc3c-4718bc835509">David
+                    <small class="text-muted"><em class="ng-binding">developer</em></small>                    
+                    <input id="5" ng-click="selectedA.push(user.id)" name="selectedA[]" value="5" ng-checked="selectedA.indexOf(user.id) &gt; -1" type="checkbox" class="pull-right">
+                  </a>
+                </span><!-- end ngRepeat: user in listA -->
+              </div>
+            </div><!--/col-4-->
+            <div class="col-md-2 v-center text-center">
+              <div class="btn-group">
+                <button title="Send to list 1" class="btn btn-default" ng-click="bToA()" id="btnA"><i class="glyphicon glyphicon-chevron-left"></i></button>
+                <button title="Send to list 2" class="btn btn-default" ng-click="aToB()" id="btnB"><i class="glyphicon glyphicon-chevron-right"></i></button>
+              </div>
+              <h6 class="text-center">move from list-to-list</h6>
+            </div><!--/col-2-->
+            <div class="col-sm-4">
+              <div class="list-group ng-isolate-scope" id="list2" x-lvl-drop-target="true" x-on-drop="drop(dragEl, dropEl, aToB)">
+                <a href="javascript:;" class="list-group-item active">Team Members
+                  <input title="Toggle all" ng-click="toggleB()" ng-model="toggle" value="" type="checkbox" class="pull-right ng-pristine ng-valid">
+                </a>
+                <!-- ngRepeat: user in listB --><span ng-repeat="user in listB" class="ng-scope">
+                  <a href="javascript:;" data-id="7" class="list-group-item ng-binding" x-lvl-draggable="true" draggable="true" id="4baa132e-86e4-23ea-59fb-477aff5ad368">Jeff
+                    <small class="text-muted"><em class="ng-binding">manager</em></small>
+                    <input id="7" ng-click="selectedB.push(user.id)" name="selectedB[]" value="7" ng-checked="selectedB.indexOf(user.id) &gt; -1" type="checkbox" class="pull-right">
+                  </a>
+                </span><!-- end ngRepeat: user in listB --><span ng-repeat="user in listB" class="ng-scope">
+                  <a href="javascript:;" data-id="8" class="list-group-item ng-binding" x-lvl-draggable="true" draggable="true" id="70a453ab-38b3-d2fc-e850-98029c62c47c">Betty
+                    <small class="text-muted"><em class="ng-binding">manager</em></small>
+                    <input id="8" ng-click="selectedB.push(user.id)" name="selectedB[]" value="8" ng-checked="selectedB.indexOf(user.id) &gt; -1" type="checkbox" class="pull-right">
+                  </a>
+                </span><!-- end ngRepeat: user in listB --><span ng-repeat="user in listB" class="ng-scope">
+                  <a href="javascript:;" data-id="9" class="list-group-item ng-binding" x-lvl-draggable="true" draggable="true" id="55381769-95df-3646-8e76-31ef89862592">Krista
+                    <small class="text-muted"><em class="ng-binding">developer</em></small>
+                    <input id="9" ng-click="selectedB.push(user.id)" name="selectedB[]" value="9" ng-checked="selectedB.indexOf(user.id) &gt; -1" type="checkbox" class="pull-right">
+                  </a>
+                </span><!-- end ngRepeat: user in listB --><span ng-repeat="user in listB" class="ng-scope">
+                  <a href="javascript:;" data-id="11" class="list-group-item ng-binding" x-lvl-draggable="true" draggable="true" id="c85c40b7-d3c2-426e-bd44-553362431352">Devin
+                    <small class="text-muted"><em class="ng-binding">manager</em></small>
+                    <input id="11" ng-click="selectedB.push(user.id)" name="selectedB[]" value="11" ng-checked="selectedB.indexOf(user.id) &gt; -1" type="checkbox" class="pull-right">
+                  </a>
+                </span><!-- end ngRepeat: user in listB -->
+              </div>
+            </div><!--/col-4-->
+      </div><!--/row-->
+    </div><!--/container-->
+   
+  <hr>
+  <a href="http://www.bootply.com/mW09b0bQcE">Edit on Bootply</a> 
+  
+  </div><!--/container-fluid-->
+  
+
+
+
+        
+        <script async="" src="./Bootply snippet - Bootstrap Angular dual list example (d&d)_files/analytics.js"></script><script type="text/javascript" src="./Bootply snippet - Bootstrap Angular dual list example (d&d)_files/jquery.min.js"></script>
+
+
+        <script type="text/javascript" src="./Bootply snippet - Bootstrap Angular dual list example (d&d)_files/bootstrap.min.js"></script>
+
+
+
+<script type="text/javascript" src="./Bootply snippet - Bootstrap Angular dual list example (d&d)_files/angular.min.js"></script>
+
+
+        
+        <!-- JavaScript jQuery code from Bootply.com editor  -->
+        
+        <script type="text/javascript">
+        
+            /* load drag-and-drop directives -- credit: http://logicbomb.github.io/ng-directives/script/lvl-drag-drop.js */
+angular
+.module('lvl.services',[])
+.factory('uuid', function() {
+    var svc = {
+        new: function() {
+            function _p8(s) {
+                var p = (Math.random().toString(16)+"000000000").substr(2,8);
+                return s ? "-" + p.substr(0,4) + "-" + p.substr(4,4) : p ;
+            }
+            return _p8() + _p8(true) + _p8(true) + _p8();
+        },
+         
+        empty: function() {
+          return '00000000-0000-0000-0000-000000000000';
+        }
+    };
+     
+    return svc;
+});
+
+var module = angular.module("lvl.directives.dragdrop", ['lvl.services']);
+
+module.directive('lvlDraggable', ['$rootScope', 'uuid', function($rootScope, uuid) {
+  return {
+    restrict: 'A',
+    link: function(scope, el, attrs, controller) {
+      angular.element(el).attr("draggable", "true");
+      
+      var id = angular.element(el).attr("id");
+      
+      if (!id) {
+        id = uuid.new()
+        angular.element(el).attr("id", id);
+      }
+      
+      el.bind("dragstart", function(e) {
+        e.dataTransfer.setData('text', id);
+        $rootScope.$emit("LVL-DRAG-START");
+      });
+      
+      el.bind("dragend", function(e) {
+        $rootScope.$emit("LVL-DRAG-END");
+      });
+    }
+  }
+}]);
+module.directive('lvlDropTarget', ['$rootScope', 'uuid', function($rootScope, uuid) {
+  return {
+    restrict: 'A',
+    scope: {
+      onDrop: '&'
+    },
+    link: function(scope, el, attrs, controller) {
+      
+      var id = angular.element(el).attr("id");
+      
+      if (!id) {
+        id = uuid.new();
+        angular.element(el).attr("id", id);
+      }
+      
+      el.bind("dragover", function(e) {
+        if (e.preventDefault) {
+          e.preventDefault();
+        }
+        
+        e.dataTransfer.dropEffect = 'move';
+        return false;
+      });
+      
+      el.bind("dragenter", function(e) {
+        // this / e.target is the current hover target.
+        angular.element(e.target).addClass('lvl-over');
+      });
+      
+      el.bind("dragleave", function(e) {
+        angular.element(e.target).removeClass('lvl-over');  // this / e.target is previous target element.
+      });
+      
+      el.bind("drop", function(e) {
+        if (e.preventDefault) {
+          e.preventDefault();
+        }
+        
+        if (e.stopPropagation) {
+          e.stopPropagation();
+        }
+        var data = e.dataTransfer.getData("text");
+        var dest = document.getElementById(id);
+        var src = document.getElementById(data);
+        
+        scope.onDrop({dragEl: src, dropEl: dest});
+        $rootScope.$emit("LVL-DRAG-END");
+      });
+      
+      $rootScope.$on("LVL-DRAG-START", function() {
+        var el = document.getElementById(id);
+        angular.element(el).addClass("lvl-target");
+      });
+      
+      $rootScope.$on("LVL-DRAG-END", function() {
+        var el = document.getElementById(id);
+        angular.element(el).removeClass("lvl-target");
+        
+        var els = document.getElementsByClassName("lvl-over");
+        for (var e in els) {
+          angular.element(els[e]).removeClass("lvl-over");
+        }
+      });
+    }
+  }
+}]);
+/*end directives*/
+
+var userData = [
+  {id:1,firstName:'Mary',lastName:'Goodman',role:'manager',approved:true,points:34},
+  {id:2,firstName:'Mark',lastName:'Wilson',role:'developer',approved:true,points:4},
+  {id:3,firstName:'Alex',lastName:'Davies',role:'admin',approved:true,points:56},
+  {id:4,firstName:'Bob',lastName:'Banks',role:'manager',approved:false,points:14},
+  {id:5,firstName:'David',lastName:'Stevens',role:'developer',approved:false,points:100},
+  {id:6,firstName:'Jason',lastName:'Durham',role:'developer',approved:false,points:0},
+  {id:7,firstName:'Jeff',lastName:'Marks',role:'manager',approved:true,points:8},
+  {id:8,firstName:'Betty',lastName:'Abercrombie',role:'manager',approved:true,points:18},
+  {id:9,firstName:'Krista',lastName:'Michaelson',role:'developer',approved:true,points:10},
+  {id:11,firstName:'Devin',lastName:'Sumner',role:'manager',approved:false,points:3},
+  {id:12,firstName:'Navid',lastName:'Palit',role:'manager',approved:true,points:57},
+  {id:13,firstName:'Bhat',lastName:'Phuart',role:'developer',approved:false,points:314},
+  {id:14,firstName:'Nuper',lastName:'Galzona',role:'admin',approved:true,points:94}
+];
+
+function ctrlDualList($scope) {
+ 
+  // init
+  $scope.selectedA = [];
+  $scope.selectedB = [];
+   
+  $scope.listA = userData.slice(0,5);
+  $scope.listB = userData.slice(6,10);
+  $scope.items = userData;
+  
+  $scope.checkedA = false;
+  $scope.checkedB = false;
+  
+  function arrayObjectIndexOf(myArray, searchTerm, property) {
+      for(var i = 0, len = myArray.length; i < len; i++) {
+          if (myArray[i][property] === searchTerm) return i;
+      }
+      return -1;
+  }
+  
+  $scope.aToB = function() {
+    for (i in $scope.selectedA) {
+      var moveId = arrayObjectIndexOf($scope.items, $scope.selectedA[i], "id"); 
+      $scope.listB.push($scope.items[moveId]);
+      var delId = arrayObjectIndexOf($scope.listA, $scope.selectedA[i], "id"); 
+      $scope.listA.splice(delId,1);
+    }
+    reset();
+  };
+  
+  $scope.bToA = function() {
+    for (i in $scope.selectedB) {
+      var moveId = arrayObjectIndexOf($scope.items, $scope.selectedB[i], "id"); 
+      $scope.listA.push($scope.items[moveId]);
+      var delId = arrayObjectIndexOf($scope.listB, $scope.selectedB[i], "id"); 
+      $scope.listB.splice(delId,1);
+    }
+    reset();
+  };
+  
+  function reset(){
+  	$scope.selectedA=[];
+    $scope.selectedB=[];
+    $scope.toggle=0;
+  }
+  
+  $scope.toggleA = function() {
+    
+    if ($scope.selectedA.length>0) {
+      $scope.selectedA=[];
+    }
+    else {
+      for (i in $scope.listA) {
+        $scope.selectedA.push($scope.listA[i].id);
+      }
+    }
+  }
+  
+  $scope.toggleB = function() {
+    
+    if ($scope.selectedB.length>0) {
+      $scope.selectedB=[];
+    }
+    else {
+      for (i in $scope.listB) {
+        $scope.selectedB.push($scope.listB[i].id);
+      }
+    }
+  }
+ 
+  $scope.drop = function(dragEl, dropEl, direction) {
+    
+    var drag = angular.element(dragEl);
+    var drop = angular.element(dropEl);
+    var id = drag.attr("data-id");
+    var el = document.getElementById(id);
+    
+    if(!angular.element(el).attr("checked")){
+      angular.element(el).triggerHandler('click');
+    }
+    
+    direction();
+    $scope.$digest();
+  };
+  
+};
+  
+angular
+  .module('myApp', ['lvl.directives.dragdrop']) 
+  .controller('ctrlDualList', ['$scope', ctrlDualList]);
+  
+$(document).ready(function() {
+	jQuery.event.props.push('dataTransfer'); //prevent conflict with drag-drop
+});
+        
+        </script>
+       
+        <style>
+            .ad {
+              position: absolute;
+              bottom: 70px;
+              right: 48px;
+              z-index: 992;
+              background-color:#f3f3f3;
+              position: fixed;
+              width: 155px;
+              padding:1px;
+            }
+            
+            .ad-btn-hide {
+              position: absolute;
+              top: -10px;
+              left: -12px;
+              background: #fefefe;
+              background: rgba(240,240,240,0.9);
+              border: 0;
+              border-radius: 26px;
+              cursor: pointer;
+              padding: 2px;
+              height: 25px;
+              width: 25px;
+              font-size: 14px;
+              vertical-align:top;
+              outline: 0;
+            }
+            
+            .carbon-img {
+              float:left;
+              padding: 10px;
+            }
+            
+            .carbon-text {
+              color: #888;
+              display: inline-block;
+              font-family: Verdana;
+              font-size: 11px;
+              font-weight: 400;
+              height: 60px;
+              margin-left: 9px;
+              width: 142px;
+              padding-top: 10px;
+            }
+            
+            .carbon-text:hover {
+              color: #666;
+            }
+            
+            .carbon-poweredby {
+              color: #6A6A6A;
+              float: left;
+              font-family: Verdana;
+              font-size: 11px;
+              font-weight: 400;
+              margin-left: 10px;
+              margin-top: 13px;
+              text-align: center;
+            }
+        </style>
+        <div class="ad collapse" style="height: 2px;">
+          <button class="ad-btn-hide collapsed" data-toggle="collapse" data-target=".ad">×</button>
+          <script async="" type="text/javascript" src="./Bootply snippet - Bootstrap Angular dual list example (d&d)_files/carbon.js" id="_carbonads_js"></script><div id="carbonads"><span><span class="carbon-wrap"><a href="http://srv.carbonads.net/ads/click/x/GTND423MCWADE27YF6B4YKQWCWBILKJUCTAI4Z3JCEBIP53ICYAI65QKC6BDP2QYFTSDEK3EHJNCLSIZ?segment=placement:bootplycom;" class="carbon-img" target="_blank"><img src="./Bootply snippet - Bootstrap Angular dual list example (d&d)_files/26860" alt="" border="0" height="100" width="130" style="max-width:130px;"></a><a href="http://srv.carbonads.net/ads/click/x/GTND423MCWADE27YF6B4YKQWCWBILKJUCTAI4Z3JCEBIP53ICYAI65QKC6BDP2QYFTSDEK3EHJNCLSIZ?segment=placement:bootplycom;" class="carbon-text" target="_blank">Syncano is a backend platform to easily build real-time apps. Start for free.</a></span><a href="http://carbonads.net/" class="carbon-poweredby" target="_blank">ads via Carbon</a></span></div>
+        </div>
+        
+    
+<iframe width="0" height="0" frameborder="0" src="./Bootply snippet - Bootstrap Angular dual list example (d&d)_files/saved_resource.html" style="border: 0px solid; display: none; position: absolute; z-index: 2147483647; height: 0px; width: 0px; background-color: transparent;" id="GINGER_SOFTWARE_bubblesIFrame" scrolling="no"></iframe><div id="GingerWidgetInfo" style="display:none;">{"version":"0.1.0.591","isExtension":true,"extensionName":"Chrome"}</div></body></html>
